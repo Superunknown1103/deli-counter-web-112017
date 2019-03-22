@@ -8,7 +8,7 @@ def line(line)
       output += "#{i + 1}. #{line[i]} "
       i += 1
     end
-    puts output.chomp()
+    puts output.chomp(' ')
   end
 end
 
