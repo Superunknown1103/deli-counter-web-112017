@@ -1,4 +1,4 @@
-def line(line){
+def line(line)
   if line.empty?
     puts "The line is currently empty."
   else
@@ -11,5 +11,3 @@ def line(line){
     puts output
   end
 end
-
-def
