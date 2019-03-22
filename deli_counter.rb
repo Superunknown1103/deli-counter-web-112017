@@ -5,10 +5,10 @@ def line(line)
     output = "The line is currently: "
     i = 0
     while i < line.size
-      output += "#{i + 1}. #{line[i]}"
+      output += "#{i + 1}. #{line[i]} "
       i += 1
     end
-    puts output
+    puts output.chomp()
   end
 end
 
