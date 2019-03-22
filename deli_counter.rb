@@ -2,7 +2,7 @@ def line(line)
   if line.empty?
     puts "The line is currently empty."
   else
-    output = "The line is currently:"
+    output = "The line is currently: "
     i = 0
     while i < line.size
       output += " #{i + 1}. #{line[n]}"
@@ -14,7 +14,7 @@ end
 
 def take_a_number(line, customer)
   line.push(customer)
-  return "Welcome, #{customer}. You are number #{line.size + 1}in line."
+  return "Welcome, #{customer}. You are number #{line.size + 1} in line."
 end
 
 def now_serving(line)
