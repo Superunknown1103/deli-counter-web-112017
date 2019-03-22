@@ -11,3 +11,8 @@ def line(line)
     puts output
   end
 end
+
+def take_a_number(line, customer)
+  line.push(customer)
+  return "Welcome, #{customer}. You are number #{line.size + 1}in line.")
+end
