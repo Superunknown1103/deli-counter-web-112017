@@ -20,4 +20,5 @@ end
 def now_serving(line)
   if line.empty?
     puts "The line is currently empty."
-  else 
+  else
+    
